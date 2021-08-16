@@ -1,0 +1,78 @@
+.heading-1 {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1;
+  @media only screen and (max-width:$small){
+    font-size:10rem;
+  }
+  &--primary {
+    color: $primary-color;
+  }
+  &--secondary {
+    color: $secondary-color;
+  }
+}
+.heading-2 {
+  font-size: 2.6rem;
+  font-weight: normal;
+  line-height: 1.13;
+  letter-spacing: 0.75px;
+  @media only screen and (max-width:$small){
+    font-size:8rem;
+  }
+  &--black {
+    color: $color-black-two;
+  }
+  &--primary {
+    color: $primary-color;
+    font-weight: 600;
+  }
+}
+.heading-3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8;
+  @media only screen and (max-width:$small){
+    font-size:10rem;
+  }
+  &--black {
+    color: $color-black-two;
+  }
+  &--primary {
+    color: $primary-color;
+  }
+}
+.heading-4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: rgba($color-black-two, 0.8);
+  @media only screen and (max-width:$small){
+    font-size:6rem;
+  }
+  &--primary {
+    color: $primary-color;
+  }
+  &--white{
+    color:$color-white;
+  }
+}
+.heading-5 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba($color-black-two, 0.8);
+}
+.paragraph {
+  margin-top: 1rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  @media only screen and (max-width:$small){
+    font-size: 5rem;
+  }
+}
+.bold {
+  font-weight: bold;
+}
+.uppercase {
+  text-transform: uppercase;
+}

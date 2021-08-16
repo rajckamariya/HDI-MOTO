@@ -1,0 +1,103 @@
+.header {
+  &__logoImg {
+    width: 10rem;
+    @media only screen and (max-width:$small){
+      width:30rem;
+    }
+  }
+  &__navigation {
+    display: flex;
+    @media only screen and (max-width:$small){
+      display:none;
+    }
+  }
+}
+.mobile{
+  &__navigation{
+    display:none;
+    @media only screen and (max-width:$small){
+      background: $primary-color;
+      display:block;
+    width: 100vw;
+    padding: 5rem;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 18rem;
+    z-index: 100;
+    transition: all 1s;
+    transform: scale(0);
+    }
+  }
+  &__actionBtn{
+
+    width: 15rem;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    height: 8rem;
+    @media only screen and (max-width:$small){
+      display:flex;
+    }
+  }
+  &__btnUI{
+    width: 10rem;
+    background: $primary-color;
+    height: 1rem;
+    position: absolute;
+  }
+  &__bar{
+    &--1{margin-top:1rem;transition: all 1s;}
+    &--2{margin-top:3rem;transition: all .5s;}
+    &--3{margin-top:5rem;transition: all 1s;}
+  }
+  &__list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__item{
+    &:not(:last-child){
+      margin-bottom: 5rem;
+    }
+  }
+  &__link{
+    text-decoration: none;
+    color:white;
+    font-size: 5rem;
+    font-weight: 300;
+    transition: all .5s;
+    &:hover{
+      font-size:6rem;
+      font-weight: bold;
+    }
+  }
+}
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+  &__item {
+    margin: 0 3rem;
+  }
+
+  &__link {
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    text-decoration: none;
+    color: $primary-color;
+    transition: all 0.3s;
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}

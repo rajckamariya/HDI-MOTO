@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+@font-face {
+  font-family: HDIGerlingsans;
+  src: url("../fonts/hdi-gerlingsans-regular-webfont.woff");
+}
+html {
+  font-size: 62.5%; //originally 1rem is 16px to set 1 rem =10px; we need to apply this 10px/16px = 62.5%
+  width:100%
+}
+@media only screen and (max-width:$large){
+ html{ font-size:40%;}
+}
+@media only screen and (max-width:$medium){
+  html{ font-size:25%;}
+}
+@media only screen and (max-width:$small){
+  html{ font-size:15%;}
+}
+
+body {
+  box-sizing: border-box;
+  font-family: HDIGerlingsans;
+}

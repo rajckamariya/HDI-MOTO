@@ -1,0 +1,39 @@
+<svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 25" id="Arrow_CTA">
+    <path d="M1.058 1.351L14.943 12.5 1.058 23.649" stroke="#fff" stroke-width="2" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 12" id="arrow_down_black">
+    <path d="M21 1l-9.6 10L1 1" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 12" id="arrow_down_green">
+    <path d="M17.9 1l-8.1 9.8L1 1" fill="none" stroke="#009c33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 22" id="arrow_left_black">
+    <path d="M11 21L1 11.4 11 1" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 22" id="arrow_right_black">
+    <path d="M1 1l10 9.6L1 21" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 11" id="arrow_up_black">
+    <path d="M1 10l7.2-9 7.8 9" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 12" id="arrow_up_green">
+    <path d="M1 10.8L9.2 1l8.7 9.8" fill="none" stroke="#009c33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 20" id="Checkmark_green">
+    <path d="M22.774.24h-1.97a.876.876 0 00-.707.371L8.475 16.475 2.904 8.866a.918.918 0 00-.315-.272.849.849 0 00-.393-.098H.226c-.189 0-.293.234-.178.392l7.72 10.539a.865.865 0 001.418 0L22.952.629c.115-.155.01-.389-.178-.389z" fill="#009C33"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 20" id="Checkmark_orange">
+    <path d="M22.774.24h-1.97a.876.876 0 00-.707.371L8.475 16.475 2.904 8.866a.918.918 0 00-.315-.272.849.849 0 00-.393-.098H.226c-.189 0-.293.234-.178.392l7.72 10.539a.865.865 0 001.418 0L22.952.629c.115-.155.01-.389-.178-.389z" fill="#FF9632"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" id="Exit">
+    <path stroke="#009C33" stroke-width="2.5" d="M20.826.884L.884 20.826m20.174 0L1.116.884"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 14" id="Information_i">
+    <path d="M2.3.9H.7v1.7h1.6V.9zm0 3.8H.7V14h1.6V4.7z" fill="#009c33"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 16" id="x-sign">
+    <path d="M1.952 15.051L16.89.95" stroke="#E60018" stroke-width="2.5"></path>
+    <path transform="matrix(.75225 .65888 -.75225 .65888 1 1.768)" stroke="#E60018" stroke-width="2.5" d="M0-1.25h21.27"></path>
+  </symbol>
+</svg>

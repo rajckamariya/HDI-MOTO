@@ -1,0 +1,78 @@
+.btn__orange {
+  display: flex;
+  align-items: center;
+  background-color: $secondary-color-light;
+  color: $color-white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-width: 0;
+  outline: none;
+  position: relative;
+  border-radius: 4px;
+  margin-right: 2rem;
+  cursor: pointer;
+  @media only screen and (max-width: $small) {
+    font-size: 5rem;
+  }
+  div {
+    padding: 0.5rem 4rem;
+    @media only screen and (max-width: $small) {
+      margin: 0 auto;
+      display: flex;
+      padding: 4rem !important;
+    }
+  }
+  &:hover {
+    background-color: $secondary-color-dark;
+  }
+  &:hover > .arrow_img {
+    background-color: $secondary-color-dark-2;
+  }
+}
+
+.arrow_img {
+  @media only screen and (max-width: $small) {
+    margin: 0 !important;
+  }
+  padding: 0.5rem !important;
+  background: #ff7200;
+  border-radius: 0 4px 4px 0;
+  img {
+    right: 0;
+
+    height: 100%;
+  }
+}
+.btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-width: 0;
+  outline: none;
+  position: relative;
+  border-radius: 4px;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  width: fit-content;
+  @media only screen and (max-width: $small) {
+    font-size: 5rem;
+    padding: 4rem 8rem;
+  }
+  &--secondary {
+    background-color: $color-white;
+    color: $secondary-color-light;
+    border: 1px solid $secondary-color-light;
+    &:hover {
+      background-color: $secondary-color-light;
+      color: $color-white;
+    }
+  }
+  &--primary {
+    background-color: $color-white;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    &:hover {
+      background-color: $primary-color;
+      color: $color-white;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+.header-section {
+  margin: 2rem 0;
+}
+
+.intro-section {
+  margin: 4rem 0;
+  background-size: contain;
+  background: url('../img/MaskGroup.svg');
+  background-position-x: right;
+  background-repeat: no-repeat;
+  
+  @media only screen and (max-width: $small) {
+    background: none;
+  }
+  
+}
+
+.two-sections {
+  background: url('../img/animation/Street_Illustration.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: top;
+  margin-top: -10rem;
+  padding-top: 20rem;
+  @media only screen and (max-width: $small) {
+    background: transparent;
+  }
+  @media only screen and (max-width: $medium) {
+    background: none;
+  }
+  @media only screen and (max-width: $large) {
+    background: none;
+  }
+}
+.section-first {
+  margin: 0;
+  @media only screen and (max-width: $small) {
+    margin: 15rem 0;
+  }
+}
+.section-third {
+  margin: 5rem 0;
+  @media only screen and (max-width: $small) {
+    margin: 15rem 0;
+  }
+}
+.green-section {
+  background-color: $primary-color-light;
+}
+.section-sixth {
+  margin: 10rem 0;
+  @media only screen and (max-width: $small) {
+    margin: 15rem 0;
+  }
+}
+.section-seventh {
+  margin-bottom: 10rem;
+  @media only screen and (max-width: $small) {
+    margin-bottom: 15rem;
+  }
+}
+.bomberg {
+  grid-column: 2/14;
+  width: 15rem;
+  @media only screen and (max-width: $small) {
+    grid-column: 1/3;
+    display: flex;
+    margin: 0 auto;
+    width: 25%;
+  }
+}
+.crew_img {
+  margin-top: -15rem;
+  width: 100%;
+  @media only screen and (max-width: $small) {
+    margin-top: -10rem;
+  }
+  > img {
+    width: 100%;
+  }
+}
+.section-eighth {
+  margin-top: -1rem;
+  padding-top: 5rem;
+  @media only screen and (max-width: $small) {
+    position: relative;
+  }
+}
+.primary-back {
+  background-color: $primary-color;
+}
+.footer-section {
+  background-color: $primary-color;
+  color: $color-white !important;
+}
